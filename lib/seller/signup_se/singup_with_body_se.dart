@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:test1graduation/Deliver/signup/singup_with_email_shape.dart';
-import 'package:test1graduation/seller/signup_se/singup_with_email_shape_se.dart';
+import 'package:delivery/Deliver/signup/singup_with_email_shape.dart';
+import 'package:delivery/seller/signup_se/singup_with_email_shape_se.dart';
 
 class singup_with_body_se extends StatelessWidget {
   @override

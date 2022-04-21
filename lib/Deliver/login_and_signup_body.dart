@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test1graduation/Deliver/signup/singup_with_shape.dart';
+import 'package:delivery/Deliver/signup/singup_with_shape.dart';
 
 import 'login/login_with_shape.dart';
 

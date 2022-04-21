@@ -3,14 +3,7 @@ import 'package:flutter/material.dart';
 
 
 
-class orderdetails extends StatefulWidget {
-  const orderdetails({Key? key}) : super(key: key);
-
-  @override
-  _orderdetailsState createState() => _orderdetailsState();
-}
-
-class _orderdetailsState extends State<orderdetails> {
+class orderdetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -120,7 +113,7 @@ class _orderdetailsState extends State<orderdetails> {
             height: 20,
           ),
           Padding(
-              padding: const EdgeInsets.fromLTRB(10, 0, 10,0 ),
+            padding: const EdgeInsets.fromLTRB(10, 0, 10,0 ),
             child: Container(
               height: 80,
               width: 50,
@@ -163,7 +156,7 @@ class _orderdetailsState extends State<orderdetails> {
             child: Text("Notes",style: TextStyle(fontSize: 30,color: Color(0XFF64314D)),),
           ),
           Padding(
-              padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+            padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
             child: Container(
               height: 100,
               width: 300,
@@ -176,3 +169,4 @@ class _orderdetailsState extends State<orderdetails> {
     );
   }
 }
+

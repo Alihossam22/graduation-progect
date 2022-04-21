@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test1graduation/seller/pages/setting/Setting.dart';
-import 'package:test1graduation/seller/pages/create%20order%20page.dart';
-import 'package:test1graduation/seller/pages/homepage.dart';
+import 'package:delivery/seller/pages/setting/Setting.dart';
+import 'package:delivery/seller/pages/create%20order%20page.dart';
+import 'package:delivery/seller/pages/homepage.dart';
 
 
 
@@ -15,14 +15,12 @@ class mainofseller extends StatefulWidget {
 class _mainofsellerState extends State<mainofseller> {
 
   int _selectedIndex = 0;
-  static const TextStyle optionStyle =
+  static  TextStyle optionStyle =
   TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  static const List<Widget> _widgetOptions = <Widget>[
+  static  List<Widget> _widgetOptions = <Widget>[
     home2(),
     order(),
     setting(),
-
-
   ];
 
   void _onItemTapped(int index) {
@@ -34,12 +32,12 @@ class _mainofsellerState extends State<mainofseller> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0XFF64314D),
+      backgroundColor:  Color(0XFF64314D),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
+        items:  <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             backgroundColor: Color(0XFF64314D),
             icon: Icon(Icons.home),

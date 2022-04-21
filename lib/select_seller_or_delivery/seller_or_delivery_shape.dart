@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:test1graduation/select_seller_or_delivery/seller_or_delivery_body.dart';
+import 'package:delivery/select_seller_or_delivery/seller_or_delivery_body.dart';
 
 import '../component/header.dart';
 

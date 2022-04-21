@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test1graduation/Deliver/signup/singup_with_email_shape.dart';
+import 'package:delivery/Deliver/signup/singup_with_email_shape.dart';
 
 import '../forget_pass_se/forget_pass_shape_se.dart';
 import '../pages/mainofseller.dart';

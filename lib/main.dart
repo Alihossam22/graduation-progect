@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:test1graduation/Deliver/pages/mainofdelivery.dart';
-import 'package:test1graduation/select_seller_or_delivery/seller_or_delivery_shape.dart';
-import 'package:test1graduation/seller/login_and_signup_shape_se.dart';
-import 'package:test1graduation/seller/pages/mainofseller.dart';
-import 'package:test1graduation/splash_screen.dart';
+import 'package:delivery/Deliver/pages/mainofdelivery.dart';
+import 'package:delivery/select_seller_or_delivery/seller_or_delivery_shape.dart';
+import 'package:delivery/seller/login_and_signup_shape_se.dart';
+import 'package:delivery/seller/pages/mainofseller.dart';
+import 'package:delivery/splash_screen.dart';
 
 import 'Deliver/login_and_signup_shape.dart';
 
@@ -78,5 +78,9 @@ class _splashscreenState extends State<splashscreen> {
     );
   }
 }
+
+
+
+
 
 

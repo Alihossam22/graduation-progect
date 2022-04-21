@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:test1graduation/Deliver/pages/Delivery_homepage.dart';
-import 'package:test1graduation/Deliver/pages/Delivery_orderDetails.dart';
-import 'package:test1graduation/Deliver/pages/location.dart';
-import 'package:test1graduation/Deliver/pages/setting_de/Setting.dart';
+import 'package:delivery/Deliver/pages/Delivery_homepage.dart';
+import 'package:delivery/Deliver/pages/Delivery_orderDetails.dart';
+import 'package:delivery/Deliver/pages/location.dart';
+import 'package:delivery/Deliver/pages/setting_de/Setting.dart';
 
 
 class mainofdelivery extends StatefulWidget {
@@ -15,9 +15,9 @@ class mainofdelivery extends StatefulWidget {
 class _mainofdeliveryState extends State<mainofdelivery> {
 
   int _selectedIndex = 0;
-  static const TextStyle optionStyle =
+  static  TextStyle optionStyle =
   TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  static const List<Widget> _widgetOptions = <Widget>[
+  static  List<Widget> _widgetOptions = <Widget>[
     delivery_homepage(),
     location(),
     setting_de()

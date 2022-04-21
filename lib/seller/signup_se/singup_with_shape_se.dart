@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test1graduation/Deliver/signup/singup_with_body.dart';
-import 'package:test1graduation/seller/signup_se/singup_with_body_se.dart';
+import 'package:delivery/Deliver/signup/singup_with_body.dart';
+import 'package:delivery/seller/signup_se/singup_with_body_se.dart';
 
 import '../../component/header.dart';
 

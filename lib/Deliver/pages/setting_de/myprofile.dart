@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:test1graduation/Deliver/pages/setting_de/password.dart';
-import 'package:test1graduation/Deliver/pages/setting_de/phone_number.dart';
-import 'package:test1graduation/Deliver/pages/setting_de/username.dart';
-import 'package:test1graduation/seller/pages/setting/password.dart';
-import 'package:test1graduation/seller/pages/setting/phone_number.dart';
-import 'package:test1graduation/seller/pages/setting/username.dart';
+import 'package:delivery/Deliver/pages/setting_de/password.dart';
+import 'package:delivery/Deliver/pages/setting_de/phone_number.dart';
+import 'package:delivery/Deliver/pages/setting_de/username.dart';
+import 'package:delivery/seller/pages/setting/password.dart';
+import 'package:delivery/seller/pages/setting/phone_number.dart';
+import 'package:delivery/seller/pages/setting/username.dart';
 
 
 class myprofile_de extends StatefulWidget {
@@ -28,7 +28,9 @@ class _myprofileState extends State<myprofile_de> {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(0,0,320,0),
-              child: IconButton(onPressed: (){}, icon: const Icon(Icons.arrow_back,size: 50,)),
+              child: IconButton(onPressed: (){
+                Navigator.pop(context);
+              }, icon: const Icon(Icons.arrow_back,size: 50,)),
             ),
             const SizedBox(
               height: 20,

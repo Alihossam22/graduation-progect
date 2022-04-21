@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test1graduation/Deliver/login/login_with_email_shape.dart';
-import 'package:test1graduation/seller/login/login_with_email_shape_se.dart';
+import 'package:delivery/Deliver/login/login_with_email_shape.dart';
+import 'package:delivery/seller/login/login_with_email_shape_se.dart';
 
 class login_with_body_se extends StatelessWidget {
   @override
